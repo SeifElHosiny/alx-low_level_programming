@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
  * add - prints out the addition of two numbers
@@ -11,5 +11,5 @@ int add(int x, int y)
 {
 int i;
 i = x + y;
-return (i);
+return (x + y);
 }
